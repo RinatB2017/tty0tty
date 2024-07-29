@@ -1,0 +1,6 @@
+Установить порты
+insmod tty0tty.ko
+Удалить порты
+rmmod tty0tty
+Не забыть перекинуть
+cp 50-tty0tty.rules /etc/udev/rules.d/
